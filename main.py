@@ -23,7 +23,7 @@ test_vertical = QVBoxLayout()
 age_input = QLineEdit()
 fio_input = QLineEdit()
 
-test_vertical.addWidget(QLabel("Введите ФИО"))
+test_vertical.addWidget(QLabel("Введите Фамилию Имя Отчество"))
 test_vertical.addWidget(fio_input)
 test_vertical.addWidget(QLabel("Введите возраст"))
 test_vertical.addWidget(age_input)
