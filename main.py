@@ -4,6 +4,7 @@ from PyQt5.QtWidgets import QVBoxLayout, QHBoxLayout
 
 app = QApplication([])
 start_win = QWidget()
+start_win.setWindowTitle("Начало теста")
 start_vertical = QVBoxLayout()
 
 start_title = QLabel("ПРИВЕТСТВУЕМ В ТЕСТЕ РУФЬЕ")
@@ -18,6 +19,7 @@ start_win.setLayout(start_vertical)
 start_win.show()
 
 test_win = QWidget()
+start_win.setWindowTitle("Проходим тест")
 test_vertical = QVBoxLayout()
 
 age_input = QLineEdit()
